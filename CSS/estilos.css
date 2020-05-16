@@ -157,3 +157,9 @@ http://meyerweb.com/eric/tools/css/reset/
        font-size: 190px;
      }
    }
+@media (max-width: 700px) {
+     figure img {
+       width: 200px;
+        height: 200px;
+     }
+   }
