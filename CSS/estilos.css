@@ -125,12 +125,24 @@ http://meyerweb.com/eric/tools/css/reset/
    @media (max-width: 977px) {
      h5, h3 {
        font-size: 45px;
+      }
+      figure img {
+       width: 767px;
+       height: 630px;
+       margin-left: auto;
+       margin-right: auto;
      }
    }
    
    @media (max-width: 770px) {
      h4{
        font-size: 500px;
+      }
+      figure img {
+       width: 497px;
+       height: 360px;
+       margin-left: auto;
+       margin-right: auto;
      }
    }
    
@@ -144,6 +156,12 @@ http://meyerweb.com/eric/tools/css/reset/
      h4{
        font-size: 300px;
      }
+     figure img {
+      width: 357px;
+      height: 220px;
+      margin-left: auto;
+      margin-right: auto;
+     }
    }
    
    /* Media de tela para 360px*/
@@ -155,11 +173,11 @@ http://meyerweb.com/eric/tools/css/reset/
    @media (max-width: 360px) {
      h4{
        font-size: 190px;
-     }
-   }
-@media (max-width: 700px) {
-     figure img {
-       width: 200px;
-        height: 200px;
+    }
+       figure img {
+        width: 287px;
+        height: 150px;
+        margin-left: auto;
+        margin-right: auto;
      }
    }
